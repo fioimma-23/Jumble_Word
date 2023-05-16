@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/clueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Clue: " />
+
+    <Button
+        android:id="@+id/tileButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton3"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton4"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton5"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton6"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton7"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/tileButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clueTextView"
+        android:layout_toEndOf="@id/tileButton8"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <!-- Add more tileButtons (tileButton6, tileButton7, etc.) as needed -->
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tileButton5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/livesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="Lives: " />
+
+</RelativeLayout>
